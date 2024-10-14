@@ -9,8 +9,7 @@ function addAndSubstract(inputArr) {
         //Count starts from 10
         console.log('Main repository');
         //Count starts from 100
-        let startCount = 0;
-        let resultNum = startCount + 10;
+        let resultNum = 0;
         if (inputArr[i] % 2 === 0) {
             resultNum = inputArr[i] + i;
             resultArr.push(resultNum);
