@@ -4,7 +4,9 @@ function addAndSubstract(inputArr) {
 
     let resultArr = [];
     for (let i = 0; i < inputArr.length; i++) {
-        let resultNum = 0;
+        console.log('Local repository');
+        //Count starts from 10
+        let resultNum = 10;
         if (inputArr[i] % 2 === 0) {
             resultNum = inputArr[i] + i;
             resultArr.push(resultNum);
