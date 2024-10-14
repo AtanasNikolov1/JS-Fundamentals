@@ -1,28 +1,27 @@
-//Test 1 - first change
-//Test 2
+//Test 3 - local test
 
-function addAndSubstract(inputArr){
-    
-    let resultArr=[];
+function addAndSubstract(inputArr) {
+
+    let resultArr = [];
     for (let i = 0; i < inputArr.length; i++) {
-        let resultNum=0;
-        if (inputArr[i]%2===0) {
-            resultNum=inputArr[i]+i;
+        let resultNum = 0;
+        if (inputArr[i] % 2 === 0) {
+            resultNum = inputArr[i] + i;
             resultArr.push(resultNum);
-        } else{
-            resultNum=inputArr[i]-i;
+        } else {
+            resultNum = inputArr[i] - i;
             resultArr.push(resultNum);
         }
     }
 
-    let inpuArrSum=0;
+    let inpuArrSum = 0;
     for (let i = 0; i < inputArr.length; i++) {
-        inpuArrSum+=inputArr[i];
+        inpuArrSum += inputArr[i];
     }
 
-    let resultArrSum=0;
+    let resultArrSum = 0;
     for (let i = 0; i < resultArr.length; i++) {
-        resultArrSum+=resultArr[i];
+        resultArrSum += resultArr[i];
     }
 
     console.log(`[ ${resultArr.join(", ")} ]`);
