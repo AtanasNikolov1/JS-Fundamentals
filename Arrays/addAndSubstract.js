@@ -1,4 +1,5 @@
 //Pull test
+// Add comment from the vs code
 
 function addAndSubstract(inputArr) {
 
